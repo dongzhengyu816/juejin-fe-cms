@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "juejin_right_ads",
+  "info": {
+    "singularName": "juejin-right-ad",
+    "pluralName": "juejin-right-ads",
+    "displayName": "JuejinRightAd"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "upBigImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "QRCode": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "adTitle": {
+      "type": "string"
+    },
+    "adDescribe": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "juejin_admin_infos",
+  "info": {
+    "singularName": "juejin-admin-info",
+    "pluralName": "juejin-admin-infos",
+    "displayName": "JuejinAdminInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "level": {
+      "type": "integer"
+    }
+  }
+}

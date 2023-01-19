@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "juejin_header_icon_fonts",
+  "info": {
+    "singularName": "juejin-header-icon-font",
+    "pluralName": "juejin-header-icon-fonts",
+    "displayName": "JuejinHeaderIconFont"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

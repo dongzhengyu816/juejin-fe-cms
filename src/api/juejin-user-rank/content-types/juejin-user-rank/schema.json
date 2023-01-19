@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "juejin_user_ranks",
+  "info": {
+    "singularName": "juejin-user-rank",
+    "pluralName": "juejin-user-ranks",
+    "displayName": "JuejinUserRank",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rank": {
+      "type": "string"
+    },
+    "juejin_admin_info": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::juejin-admin-info.juejin-admin-info"
+    }
+  }
+}

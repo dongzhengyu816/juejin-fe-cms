@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "juejin_article_infos",
+  "info": {
+    "singularName": "juejin-article-info",
+    "pluralName": "juejin-article-infos",
+    "displayName": "JuejinArticleInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "describe": {
+      "type": "text"
+    },
+    "juejin_admin_info": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::juejin-admin-info.juejin-admin-info"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "juejin_article_tab": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article-tab.article-tab"
+    },
+    "updateTime": {
+      "type": "datetime"
+    },
+    "frontCoverImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "isAds": {
+      "type": "boolean"
+    }
+  }
+}
