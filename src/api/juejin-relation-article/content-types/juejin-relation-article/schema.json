@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "juejin_relation_articles",
+  "info": {
+    "singularName": "juejin-relation-article",
+    "pluralName": "juejin-relation-articles",
+    "displayName": "JuejinRelationArticle"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "juejin_article_info": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::juejin-article-info.juejin-article-info"
+    }
+  }
+}
